@@ -37,6 +37,9 @@
             </provider>
         </config-file>
 
+<<<<<<< HEAD
+				<source-file src="src/android" target-dir="app/src/main/java/com/vaenow/appupdate"/>
+=======
         <source-file src="src/android/AuthenticationOptions.java" target-dir="src/com/vaenow/appupdate/android"/>
         <source-file src="src/android/CheckAppUpdate.java" target-dir="src/com/vaenow/appupdate/android"/>
         <source-file src="src/android/CheckUpdateThread.java" target-dir="src/com/vaenow/appupdate/android"/>
@@ -53,6 +56,7 @@
         <source-file src="src/android/Utils.java" target-dir="src/com/vaenow/appupdate/android"/>
         <source-file src="src/android/Version.java" target-dir="src/com/vaenow/appupdate/android"/>
 
+>>>>>>> master
         <source-file src="res/values/appupdate_strings.xml" target-dir="res/values"/>
         <source-file src="res/values-en/appupdate_strings.xml" target-dir="res/values-en"/>
         <source-file src="res/values-es/appupdate_strings.xml" target-dir="res/values-es"/>
