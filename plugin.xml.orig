@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+<<<<<<< HEAD
+    id="cordova-plugin-app-update-fork" version="1.6.0">
+    <name>AppUpdateFork</name>
+    <description>Cordova App Update (Temporary Fork)</description>
+=======
     id="cordova-plugin-app-update" version="2.0.2">
     <name>AppUpdate</name>
     <description>Cordova App Update</description>
+>>>>>>> 2fe6973a597f0fda10c40401f133e4bbc4905b60
     <license>Apache 2.0</license>
     <keywords>cordova,update,app,auto,updater</keywords>
-    <dependency id="cordova-plugin-appversion" version="1.0.0" />
     <js-module src="www/AppUpdate.js" name="AppUpdate">
         <clobbers target="AppUpdate" />
     </js-module>
